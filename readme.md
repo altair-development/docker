@@ -1,4 +1,4 @@
-# altair/docker
+# docker
 ローカルにDockerコンテナを展開し開発環境を構築するためのDockerリソース。
 
 docker-compose.ymlを実行することで下記のコンテナが展開される。
@@ -7,13 +7,13 @@ docker-compose.ymlを実行することで下記のコンテナが展開され�
 - Redisセンチネル
 
 ## How to use
-まず最初に下記のコマンドを実行しaltairレポジトリをクローンします。
+まず最初に下記のコマンドを実行しdockerレポジトリをクローンします。
 ```
-git clone https://github.com/joey23008/altair.git
+git clone https://github.com/altair-development/docker.git
 ```
 次に`dockerFile/mongo`フォルダに移動します。
 ```
-cd altair/docker/dockerFile/mongo
+cd docker/dockerFile/mongo
 ```
 下記コマンドを実行しdockerイメージを作成します。
 ```
